@@ -1,0 +1,34 @@
+body {
+    background-color: pink;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+ol {
+    text-align: left; /* reset the alignment of list items */
+    display: inline-block;
+    text-align: center;
+}
+  
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+li {
+    text-align: left;
+}
+
+.title:hover {
+    color: white;
+}
+
