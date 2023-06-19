@@ -211,6 +211,40 @@ main section img {
     box-sizing: border-box;
 }
 
+/* FAQ page section */
+
+#faq-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#faq-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#faq-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#faq-hero-msg h1 {
+    text-align: center;
+    font-family: "Permanent Marker", sans-serif, Arial;
+}
+
+#faq-hero-msg h4 {
+    text-align: center;
+    font-family: "Permanent Marker", sans-serif, Arial;
+    color: white;
+}
+
+.faq-content p{
+    margin-bottom: 120px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
