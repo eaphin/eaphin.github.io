@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Excel Portfolio | Ethan Christenson | Home</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/psp-logo.png" alt="portfolio logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="example1.html">PG 1</a>
+                <a href="example2.html">PG 2</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <section id="hero-msg">
+                <h1 class="sales-summary-title">Sales Summary Showcase</h1>
+            </section>
+            <div id="example2-box">
+                <img id="sales-summary-main" src="images/excel-sales-summary.JPG" alt="sales summary example">
+            </div>
+        </div> <!--Hero div ending-->
+        <main class="ex2-grid">
+            <section class="ex2-main-msg">
+                <p>
+                    This spreadsheet is a dashboard that shows the sales summaries for the: month, year-to-date, the average unit price, and quantity sold.
+                    It also compairs each of those stats against the previous year, it shows the stats for each sales rep group as well as the item group. There's also an
+                    overall product summary that details the average unit price, both straight average and weighted average, and the standard deviation of the item prices.
+                </p>
+            </section>
+            <section class="ytd-example">
+                <img class="ytd-image" src="images/sales-year-to-date-example.JPG"
+            </section>
+            <section class="ex2-formula-msg">
+                <p>
+                    This "sales: year-to-date" formula is the basis for most of the other formulas in the spreadsheet and was by far the most complicated part to figure out.
+                    It's a SUMIFS function that adds up the revenue in the named range "sales" by determining if other information meets certain criteria.
+                    Fist off, it determines if the selected year matches up with the year that the sales were made. Secondly (this is the most complex part), the highlighted red cell that seems
+                    to be empty actually contains a hidden formula that converts the selected month to its corresponding number (i.e. Sep=9). The SUMIFS function then includes the sale if the month
+                    number is less than or equal to the month that the sale was made. Lastly it includes the sale if it was made by the corresponding rep group.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <p>Excel Portfolio &copy; 2023 - Ethan Christenson</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+        </footer>
+    </div> <!--Content ending-->
+</body>
+</html>
