@@ -1,0 +1,70 @@
+#content {
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #AABD8C;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: Tahoma, Verdana;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #F1EFE7;
+}
+
+.logo {
+    width: 80px;
+    padding-top: 5px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero-msg {
+    font-family: Tahoma, Verdana;
+}
+
+#hero-img {
+    width: 1000px;
+}
+
+.home-msg {
+    font-family: Verdana, Sans-Serif;
+}
+
+footer {
+    background-color: #AABD8C;
+    color: black;
+    font-size: 1.2em;
+    font-family: Tahoma, Verdana;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
